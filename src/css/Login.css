@@ -1,0 +1,38 @@
+:root{
+    --white: #fff;
+    --gradient: linear-gradient(33.68deg, #54007D -2.02%, #2A007D 155.07%);
+}
+
+body{
+    color: var(--white);
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.login-body {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-size: 12px;
+}
+
+.login-body img {
+    margin-bottom: 10px;
+}
+
+.bg-gradient {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 884px;
+    padding: 20px;
+    background: var(--gradient);
+    border-radius: 12px;
+}
+
+.button-right {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 20px;
+}

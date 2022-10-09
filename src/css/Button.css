@@ -1,0 +1,66 @@
+:root {
+    --white: #fff;
+    --bgOrange: #FF4436;
+    --bgDarkOrange: #d42417;
+    --bgBlue: #4267B2;
+    --bgDarkBlue: #204285;
+}
+
+.buttonSmall {
+    margin: 5px;
+    padding: 0px 20px;
+    height: 48px;
+    background: var(--bgOrange);
+    color: var(--white);
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 8px;
+    border: none;
+}
+
+.button1 {
+    margin: 5px;
+    width: 367px;
+    height: 40px;
+    background: var(--bgOrange);
+    color: var(--white);
+    font-weight: 700;
+    border-radius: 12px;
+    border: none;
+}
+
+.button2 {
+    margin: 5px;
+    width: 367px;
+    height: 40px;
+    background: var(--bgBlue);
+    color: var(--white);
+    font-weight: 700;
+
+    border-radius: 12px;
+    border: none;
+}
+
+.noOutline {
+    border: none;
+    background: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--bgOrange);
+}
+
+.noOutlinePlain {
+    border: none;
+    background: none;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--white);
+}
+
+.buttonSmall:active, .button1:active, .button2:active, .noOutline:active, .noOutlinePlain:active {
+    opacity: 0.7;
+}
+
+.buttonSmall:hover, .button1:hover, .button2:hover, .noOutline:hover, .noOutlinePlain:hover {
+    cursor: pointer;
+}

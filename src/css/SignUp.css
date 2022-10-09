@@ -1,0 +1,61 @@
+:root{
+    --white: #fff;
+    --gradient: linear-gradient(33.68deg, #54007D -2.02%, #2A007D 155.07%);
+    --text: #333333;
+    --outline: #C4C4C4;
+}
+
+.signup-bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.signup-body {
+    display: flex;
+    flex-direction: row;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    width: 560px;
+    height: 560px;
+    border: 1px solid var(--outline);
+    box-sizing: border-box;
+    font-size: 12px;
+    color: var(--text);
+
+}
+
+.app-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 560px;
+    width: 280px;
+    background: var(--gradient);
+    border-radius: 0px 8px 8px 0px;
+}
+
+.username {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.field-unit {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: var(--text);
+}
+
+.name-unit p {
+    padding-left: 10px;
+}

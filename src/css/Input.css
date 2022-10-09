@@ -1,0 +1,42 @@
+:root {
+    --white: #fff;
+    --outline: #C4C4C4;
+    --text: #333333;
+}
+
+.inputField {
+    width: 367px;
+    height: 40px;
+    padding: 2px 10px;
+    margin: 8px;
+    background: var(--white);
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.inputSmall {
+    width: 165px;
+    height: 30px;
+    padding: 2px 10px;
+    margin: 8px;
+    background: var(--white);
+    outline: none;
+    border: 1px solid var(--outline);
+    border-radius: 12px;
+    font-family: 'Titillium Web', sans-serif;
+    color: var(--text);
+}
+
+.outline-input {
+    width: 367px;
+    height: 30px;
+    padding: 2px 10px;
+    background: var(--white);
+    outline: none;
+    border: 1px solid var(--outline);
+    border-radius: 12px;
+    font-family: 'Titillium Web', sans-serif;
+    color: var(--text);
+}
