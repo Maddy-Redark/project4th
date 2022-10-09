@@ -4,6 +4,8 @@
     --bgDarkOrange: #d42417;
     --bgBlue: #4267B2;
     --bgDarkBlue: #204285;
+    --outline: #C4C4C4;
+    --text: #333333;
 }
 
 .buttonSmall {
@@ -13,6 +15,18 @@
     background: var(--bgOrange);
     color: var(--white);
     font-size: 24px;
+    font-weight: 700;
+    border-radius: 8px;
+    border: none;
+}
+
+.buttonSmall2 {
+    margin: 5px;
+    padding: 0px 20px;
+    height: 32px;
+    background: var(--bgOrange);
+    color: var(--white);
+    font-size: 18px;
     font-weight: 700;
     border-radius: 8px;
     border: none;
@@ -36,9 +50,19 @@
     background: var(--bgBlue);
     color: var(--white);
     font-weight: 700;
-
     border-radius: 12px;
     border: none;
+}
+
+.button3 {
+    margin: 5px;
+    width: 367px;
+    height: 40px;
+    background: var(--white);
+    color: var(--text);
+    font-weight: 700;
+    border-radius: 12px;
+    border: 1px solid var(--outline);
 }
 
 .noOutline {
@@ -57,10 +81,10 @@
     color: var(--white);
 }
 
-.buttonSmall:active, .button1:active, .button2:active, .noOutline:active, .noOutlinePlain:active {
+.buttonSmall:active, .buttonSmall2:active, .button1:active, .button2:active, .button3:active, .noOutline:active, .noOutlinePlain:active {
     opacity: 0.7;
 }
 
-.buttonSmall:hover, .button1:hover, .button2:hover, .noOutline:hover, .noOutlinePlain:hover {
+.buttonSmall:hover, .buttonSmall2:hover, .button1:hover, .button2:hover, .button3:hover, .noOutline:hover, .noOutlinePlain:hover {
     cursor: pointer;
 }
